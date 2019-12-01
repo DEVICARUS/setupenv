@@ -15,7 +15,7 @@ module.exports = (questions) => {
 			var output = questions.map(question => {
                 return `${question.name}=${answers[question.name]}`
             })
-            console.log(__dirname)
-            fs.writeFileSync(__dirname + "/.env", output.join("\n"))
+            
+            fs.writeFileSync("../../" + __dirname + "/.env", output.join("\n"))
 		});
 };
