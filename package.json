@@ -1,0 +1,28 @@
+{
+  "name": "setupenv",
+  "version": "1.0.0",
+  "description": "The `.env` generator you can bundle with your project",
+  "keywords": [
+    "generator",
+    "dotenv",
+    "env",
+    "boilerplate",
+    "generate",
+    "dev",
+    "tool"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DEVICARUS/setupenv.git"
+  },
+  "author": {
+    "name": "DEVICARUS",
+    "email": "me@devicarus.eu",
+    "url": "https://devicarus.eu/"
+  },
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^7.0.0"
+  }
+}
