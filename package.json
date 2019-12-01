@@ -1,6 +1,6 @@
 {
   "name": "dotenv-setup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The `.env` generator you can bundle with your project",
   "keywords": [
     "generator",
