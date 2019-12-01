@@ -16,6 +16,6 @@ module.exports = (questions) => {
                 return `${question.name}=${answers[question.name]}`
             })
             
-            fs.writeFileSync("../../" + __dirname + "/.env", output.join("\n"))
+            fs.writeFileSync(__dirname + "../../.env", output.join("\n"))
 		});
 };
