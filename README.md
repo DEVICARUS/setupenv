@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to setupenv 👋</h1>
+<h1 align="center">Welcome to dotenv-setup 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
@@ -9,20 +9,20 @@ Not having the `.env` in git makes your life easier, but it may be confusing for
 
 ## Usage
 
-#### 1. Add `setupenv` to your dependencies 
+#### 1. Add `dotenv-setup` to your dependencies 
 ```sh
-yarn add setupenv
+yarn add dotenv-setup
 # OR
-npm install setupenv
+npm install dotenv-setup
 ```
 
 > Q: Why not CLI?\
 > A: You can bundle it with your boilerplate this way!
 
-#### 2. Create your setupenv configuration file (e.g. `setup.js`)
+#### 2. Create your dotenv-setup configuration file (e.g. `setup.js`)
 ```js
 // setup.js contents
-require('setupenv')([
+require('dotenv-setup')([
     {
         name: "VARIABLE_ONE",
         message: "Description for the VARIABLE_ONE"
