@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to dotenv-setup 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.5-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.6-blue.svg?cacheSeconds=2592000" />
 </p>
 
 > The `.env` generator you can bundle with your project
