@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to dotenv-setup 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.6-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
 > The `.env` generator you can bundle with your project
@@ -25,11 +25,18 @@ npm install dotenv-setup
 require('dotenv-setup')([
     {
         name: "VARIABLE_ONE",
-        message: "Description for the VARIABLE_ONE"
+        message: "Description for the VARIABLE_ONE",
+        type: Boolean
     }, 
     {
         name: "VARIABLE_TWO",
-        message: "Description for the VARIABLE_TWO"
+        message: "Description for the VARIABLE_TWO",
+        type: Number
+    },
+    {
+        name: "VARIABLE_THREE",
+        message: "Description for the VARIABLE_THREE",
+        type: String
     }
 ])
 ```
