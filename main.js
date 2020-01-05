@@ -25,7 +25,7 @@ module.exports = (questions) => {
                         }
                 
                     default:
-                        throw new Error('Unknown type', question.type)
+                        throw new Error('Unknown type')
                 }
             })
 		)
